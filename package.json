@@ -2,9 +2,10 @@
   "name": "backendlearning",
   "version": "1.0.0",
   "description": "Creating this for learning backend",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "author": "Abhishek Pandey",
   "license": "ISC",
