@@ -1,5 +1,6 @@
 import express from 'express';
 const app = express();
+// app.use(express.static('dist'));// middelware  badpractice
 
 app.get('/', (req,res)=>{
 res.send('server is ready');
